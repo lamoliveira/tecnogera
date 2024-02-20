@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Tecnogera | Locação de Geradores de Energia e Chillers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="/">
+    <meta name="description"
+        content="Aluguel de geradores, Chillers, Bancos de Carga e acessórios. Soluções em Energia temporária e Controle de Temperatura. Atendimento 24h">
+    <meta name="keywords">
+    <meta property="og:title" content>
+    <meta property="og:description"
+        content="Aluguel de geradores, Chillers, Bancos de Carga e acessórios. Soluções em Energia temporária e Controle de Temperatura. Atendimento 24h">
+    <meta property="og:image">
+    <meta property="og:url">
+    <meta property="twitter:title" content>
+    <meta property="twitter:description"
+        content="Aluguel de geradores, Chillers, Bancos de Carga e acessórios. Soluções em Energia temporária e Controle de Temperatura. Atendimento 24h">
+    <meta property="twitter:image">
+    <meta property="twitter:site">
+    <link rel="stylesheet" href="https://www.tecnogera.com.br/css/main.css?v=5ee6574c-765e-4758-b30b-a3cf927e0d61">
+    <link rel="stylesheet" href="https://www.tecnogera.com.br/css/animated-headline.css">
+    <link rel="icon" href="https://www.tecnogera.com.br/images/favicon.png">
+
+
+    <style type="text/css">
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin-ext/300/normal.woff2);
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            src: url(/cf-fonts/s/poppins/5.0.11/devanagari/300/normal.woff2);
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 300;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin/300/normal.woff2);
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin/400/normal.woff2);
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin-ext/400/normal.woff2);
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 400;
+            src: url(/cf-fonts/s/poppins/5.0.11/devanagari/400/normal.woff2);
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 700;
+            src: url(/cf-fonts/s/poppins/5.0.11/devanagari/700/normal.woff2);
+            unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FF;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 700;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin/700/normal.woff2);
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 700;
+            src: url(/cf-fonts/s/poppins/5.0.11/latin-ext/700/normal.woff2);
+            unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            font-display: swap;
+        }
+    </style>
+    <link rel="canonical">
+    <script defer src="js/main.js?v=5ee6574c-765e-4758-b30b-a3cf927e0d61"></script>
+    <script defer src="js/animated-headline.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6K4HPP');
+
+
+    </script>
+    <script src="https://phonetrack-static.s3.sa-east-1.amazonaws.com/45a766fa266ea2ebeb6680fa139d2a3d.js"
+        id="script-pht-phone" data-cookiedays="5"></script>
+    <script>
+        _linkedin_partner_id = "1784570";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+    </script>
+    <script>
+        (function (l) {
+            if (!l) {
+                window.lintrk = function (a, b) { window.lintrk.q.push([a, b]) };
+                window.lintrk.q = []
+            }
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })(window.lintrk);
+
+
+
+    </script>
+
+
+
+
+    
+<script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.9.1.min.js"></script>
+
+<script type="text/javascript">
+
+    window.addEventListener("load", mediaSizer);
+    //window.addEventListener("resize", mediaSizer);
+    // Listeners that will react when the page first loads or is resized.
+    // If any of these events take place the mediaSizer() function executes.
+
+    var vizList = [
+
+    "https://public.tableau.com/views/resultadotecnogera/AcompanhamentodeResultado?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+    "https://public.tableau.com/views/HUMANRESOURCES-HRExpensesDashboardBrasiltecnogera/Cockpit?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/shared/9DP8W9RJS?:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/FundManagement-AssetManagementsafra/AssetMgmtRevisited?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/DashboardEnergiaSolar/EnergiaSolar?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/3-Exemplotecnogera/DashExemplo?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Howhastheworldchangedsince1962/WorldIndicators?:language=en-US&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/DashboardEnergiaSolar/EnergiaSolar?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/RiskDashboard_16131403284700/ExecutiveSummary?:language=en-US&:toolbar=n&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/FacebookAdsDashboard_15566377846980/ExecutiveSummary?:language=en-US&:toolbar=n&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/NPS-NetPromoterScoreDashboard/ExecutiveSummary?:language=en-US&:display_count=n&:origin=viz_share_link",
+        
+        "https://public.tableau.com/views/SpendAnalyticsDashboard_16056925975720/Home?:apiInternalVersion=1.131.0&:disableUrlActionsPopups=n&navSrc=Opt&:embed=y&navType=0&:suppressDefaultEditBehavior=n&mobile=n&:toolbar=n&:hideEditButton=y&:hideEditInDesktopButton=n&:jsdebug=n&:apiExternalVersion=3.6.0&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/1-DesigningEffectiveDashboardsPublic/Intro?:language=en-US&:display_count=n&:origin=viz_share_link",
+        "https://public.tableau.com/views/Embedded_Analytics/Introduo?:language=en-US&:display_count=n&:origin=viz_share_link"
+        
+
+
+    ];
+    // Array of Tableau Server URLs for dashboard or sheet navigation.
+
+    var viz,
+        vizLen = vizList.length,
+        vizCount = 0,
+        devType,
+        vHideTabs = true,
+            vHideToolbar = true;
+    var options = {
+        device: devType,
+    };
+
+
+    function mediaSizer() {
+        // Determines the correct viz layout according to screen sizes.
+        if (window.matchMedia("(max-width: 480px)").matches) {
+            //alert("I am a phone layout!");
+            devType = 'phone';
+            vWidth = 450;
+            vHeight = 2000;
+            //options.device = 'phone';
+        } else if (window.matchMedia("(max-width: 980px)").matches) {
+            //alert("I am a tablet layout!");
+            devType = 'tablet';
+            vWidth = 980;
+            //options.device = 'tablet';
+        } else {
+            //alert("I am a desktop layout!");
+            devType = 'desktop';
+             vWidth = 1666;
+            vHeight = 800;
+            //options.device = 'desktop';
+        }
+        console.log("devtype: " + devType)
+        console.log("launch0")
+        launchViz(0);
+        console.log("launch1")
+        vHeight = 800;
+        launchViz(1);
+        vHeight = 1000;
+        console.log("launch2")
+      
+        launchViz(2);
+        console.log("launch3")
+        //launchViz(3);
+        vHeight = 1600;
+        launchViz(4);
+        vHideToolbar=true;
+            vHideTabs= true;
+            vHeight = 1000
+        launchViz(5);
+        launchViz(6);
+        
+        
+        vHideToolbar=false;
+            vHideTabs= false;
+        //launchViz(7);
+        launchViz(8);
+        launchViz(9);
+    
+        launchViz(10);
+        vHeight = 1000;
+        launchViz(11);
+        launchViz(12);
+        launchViz(13);
+
+        // Launches the viz again with the new sizing at the current index of vizList.
+    }
+
+
+    function launchViz(vizNav) {
+        // JS object targeting a div in the html document. (vizNav) will pass navigation values to move back and forth across vizList.
+        console.log("vizContainer" + vizNav)
+        console.log("devtype: " + devType)
+        var vizDiv = document.getElementById("vizContainer" + vizNav),
+            // Will embed the visualization on a div with id="VizContainer"
+            options = {
+                device: devType,
+                width: vWidth,
+                height: vHeight,
+                hideTabs: vHideTabs,
+                hideToolbar: vHideToolbar,
+                onFirstInteractive: function () {
+                    listenToMarksSelection();
+                }
+            };
+
+
+        var vizURL = vizList[vizNav];
+        // Dynamic URL returning the string from vizList at index = vizNav (viz to be displayed).
+
+        try {
+            // Initializes the viz from the array with desired options. 
+            viz = new tableau.Viz(vizDiv, vizURL, options);
+            if (!viz) throw 'viz not initialized'
+        }
+        catch (err) {
+            alert(err);
+        }
+        finally {
+            console.log('whatever')
+            console.count('initViz')
+        }
+
+    }
+
+</script>
+
+
+
+
+
+</head>
+
+<body class="preload home">
+    <header>
+        <div class="__wrap"><a href><img alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/images/brand.png"></a>
+            <nav><a class="__mobile" href>Home</a><a href="sobre-nos">Sobre Nós</a><a
+                    href="responsabilidade-social">Responsabilidade Social</a><a href="etica-e-conduta">Canal de
+                    Ética</a><a href="cases">Cases</a><a href="https://www.sie.com.br/tecnogera"
+                    target="_blank">Universidade Tecnogera</a><a href="blog-tecnogera">Blog</a><a
+                    href="contato">Contato</a></nav><a class="phone" href="tel:08007721601"><span>Atendimento Comercial
+                    24H</span>
+                <div class="__f __aic"><img alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/svg/phone.svg"><b>0800 772
+                        1601</b></div>
+            </a>
+            <div class="__hamburger">
+                <div class="bars"></div>
+            </div>
+        </div>
+        <div class="verticals"><a data-href="geracao-de-energia">Geração de Energia
+                <ul>
+                    <li>Locação de Gerador</li>
+                    <li>Stand By</li>
+                    <li>Banco de Carga</li>
+                    <li>Turnkey</li>
+                </ul>
+            </a><a data-href="comercializadora-de-energia">Mercado Livre de Energia
+                <ul>
+                    <li>Mercado Livre + Garantia Física</li>
+                    <li>Migração para o Mercado Livre</li>
+                    <li>Geração Distribuída</li>
+                    <li>Eficiência Energética</li>
+                </ul>
+            </a><a data-href="controle-de-temperatura">Controle de Temperatura
+                <ul>
+                    <li>Chillers</li>
+                    <li>Fancoil</li>
+                    <li>Rooftop</li>
+                    <li>On-off</li>
+                    <li>Proporcional</li>
+                    <li>Proporcional Integral Derivativo</li>
+                </ul>
+            </a><a data-href="equipamentos-eletricos">Equipamentos Elétricos
+                <ul>
+                    <li>Plataformas Elevatórias</li>
+                    <li>Torres Elétricas</li>
+                    <li>Triciclos Elétricos</li>
+                </ul>
+            </a></div>
+    </header>
+    <div class="containment">
+        <div class="__desktop">
+            <div class="subheader">
+                <video src="https://www.tecnogera.com.br/files/home.mp4" playsinline loop autoplay muted poster="https://www.tecnogera.com.br/images/home/poster.png"></video>
+                <div class="mask">
+                    <h1 class="cd-headline clip"><span></span><span class="cd-words-wrapper" style="margin-left: 5px"><b
+                                class="is-visible">Muito mais que uma locadora de gerador,</b><b>somos uma plataforma de
+                                geração de energia</b></span></h1>
+                </div>
+            </div>
+            <section class="cards">
+                <div class="__wrap">
+                    <div class="content">
+                        <div class="card">
+                            <div class="cover" style="background-image: url('https://www.tecnogera.com.br/images/home/card1.webp');"></div>
+                            <div class="text">
+                                <div class="title" style="color:#F58229">Geração de energia</div>
+                                <p>Locação de geradores de alta performance, menor consumo e ruído. <br><br>
+                                    Geradores à diesel, 100% biodiesel, gás e biogás. <br><br>
+                                    Stand-by, Banco de Carga e Turnkey
+                                </p><a href="geracao-de-energia" style="background-color:#F58229">Veja como funciona</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover" style="background-image: url('https://www.tecnogera.com.br/images/home/comercializadora.webp');">
+                            </div>
+                            <div class="text">
+                                <div class="title" style="color:#229A76">Mercado Livre <br> de Energia</div>
+                                <p>Mercado Livre de energia com segurança energética. <br><br>
+                                    Tenha autonomia na compra de energia e reduza os custos da sua empresa. <br><br>
+                                    Com a nossa comercializadora sua energia nunca acaba. <br><br>
+                                </p><a href="comercializadora-de-energia" style="background-color:#229A76">Veja como
+                                    funciona</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover" style="background-image: url('https://www.tecnogera.com.br/images/temperature/temperature.webp');">
+                            </div>
+                            <div class="text">
+                                <div class="title" style="color:#0049B7">Controle de <br> Temperatura</div>
+                                <p>Possuímos soluções completas de controle de temperatura. <br><br>
+                                    São chillers, rooftops, fancoils e outros acessórios para realizar a climatização e
+                                    o resfriamento. <br><br>
+                                    Mais eficiência. <br>
+                                    Menor risco.
+                                </p><a href="controle-de-temperatura" style="background-color:#0049B7">Veja como
+                                    funciona</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="cover" style="background-image: url('https://www.tecnogera.com.br/images/equipment/cover.webp');"></div>
+                            <div class="text">
+                                <div class="title" style="color:#FFBB0B">Equipamentos elétricos</div>
+                                <p>Eletrificação dos equipamentos, menos combustível + bateria. <br><br>
+                                    Plataformas elevatórias Eletricas. <br><br>
+                                    Linha amarela e equipamentos elétricos para construções <br><br>
+                                    Veículos elétricos.
+                                </p><a href="equipamentos-eletricos" style="background-color:#FFBB0B">Veja como
+                                    funciona</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="__mobile">
+            <div class="home-mobile-banners" data-switcher data-autoplay>
+                <div class="home-mobile-banners-previous"></div>
+                <div class="home-mobile-banners-rail">
+                    <div class="home-mobile-banners-item"
+                        style="background-image: url(https://www.tecnogera.com.br/images/home/banner-mobile-1.png)">
+                        <div class="title">Geração de energia</div>
+                        <p>Locação de geradores de alta performance, menor consumo e ruído. <br><br>
+                            Geradores à diesel, 100% biodiesel, gás e biogás. <br><br>
+                            Stand-by, Banco de Carga e Turnkey
+                        </p><a class="cta" href="geracao-de-energia">Conheça como funciona</a>
+                    </div>
+                    <div class="home-mobile-banners-item"
+                        style="background-image: url(https://www.tecnogera.com.br/images/home/banner-mobile-2.png)">
+                        <div class="title">Comercializadora <br> de Energia</div>
+                        <p>Mercado Livre de energia com segurança energética. <br><br>
+                            Tenha autonomia na compra de energia e reduza os custos da sua empresa. <br><br>
+                            Com a nossa comercializadora sua energia nunca acaba.
+                        </p><a class="cta" href="comercializadora-de-energia">Conheça como funciona</a>
+                    </div>
+                    <div class="home-mobile-banners-item"
+                        style="background-image: url(https://www.tecnogera.com.br/images/home/banner-mobile-3.png)">
+                        <div class="title">Controle de <br> Temperatura</div>
+                        <p>Possuímos soluções completas de controle de temperatura. <br><br>
+                            São chillers, rooftops, fancoils e outros acessórios para realizar a climatização e o
+                            resfriamento. <br><br>
+                            Mais eficiência. <br>
+                            Menor risco.
+                        </p><a class="cta" href="controle-de-temperatura">Conheça como funciona</a>
+                    </div>
+                    <div class="home-mobile-banners-item"
+                        style="background-image: url(https://www.tecnogera.com.br/images/home/banner-mobile-4.png)">
+                        <div class="title">Equipamentos elétricos</div>
+                        <p>Eletrificação dos equipamentos, menos combustível + bateria. <br><br>
+                            Plataformas elevatórias Eletricas. <br><br>
+                            Linha amarela e equipamentos elétricos para construções <br><br>
+                            Veículos elétricos.
+                        </p><a class="cta" href="equipamentos-eletricos">Conheça como funciona</a>
+                    </div>
+                </div>
+                <div class="home-mobile-banners-counters"></div>
+                <div class="home-mobile-banners-next"></div>
+            </div>
+        </div>
+       <!--   <div class="big-number" data-switcher data-autoplay>
+            <div class="big-number-previous"></div>
+            <div class="big-number-rail">
+                <div class="big-number-item"><img alt="Imagem de equipamentos Tecnogera"
+                        data-src="https://www.tecnogera.com.br/images/home/big-number-1.jpg"><span>Clientes atendidos</span><a href="sobre-nos">Saiba
+                        mais</a></div>
+                <div class="big-number-item"><img alt="Imagem de equipamentos Tecnogera"
+                        data-src="https://www.tecnogera.com.br/images/home/big-number-2.jpg"><span>Equipamentos</span><a href="sobre-nos">Saiba
+                        mais</a></div>
+                <div class="big-number-item"><img alt="Imagem de equipamentos Tecnogera"
+                        data-src="https://www.tecnogera.com.br/images/home/big-number-3.jpg"><span>Em todo território nacional e américa
+                        latina</span><a href="sobre-nos">Saiba mais</a></div>
+            </div>
+            <div class="big-number-counters"></div>
+            <div class="big-number-next"></div>
+        </div>  -->
+        <section class="segments">
+            <div class="__wrap">
+                <h2>Setores que atendemos</h2>
+                <p>Nossas soluções em energia abrangem segmentos diversos, envolvendo serviços completos para que sua
+                    empresa alcance a tão sonhada independência energética.</p>
+                <div class="segments-map">
+                    <div class="circle bg-comercio"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/comercio.webp&quot; )"></div>
+                    <div class="circle bg-energia"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/energia.webp&quot; )"></div>
+                    <div class="circle bg-industria"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/industria.webp&quot; )"></div>
+                    <div class="circle bg-infraestrutura"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/infraestrutura.webp&quot; )"></div>
+                    <div class="circle bg-mineracao"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/mineracao.webp&quot; )"></div>
+                    <div class="circle bg-oleo" style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/oleo.webp&quot; )">
+                    </div>
+                    <div class="circle bg-outros __active"
+                        style="background-image: url( &quot;https://www.tecnogera.com.br/images/segments/segments.webp&quot; )"></div>
+                    <div class="button-left comercio" data-segments="comercio">Comércio <br> e serviços</div>
+                    <div class="button-left energia" data-segments="energia">Energia</div>
+                    <div class="button-left industria" data-segments="industria">Industria</div>
+                    <div class="button-right infraestrutura" data-segments="infraestrutura">Infraestrutura</div>
+                    <div class="button-right mineracao" data-segments="mineracao">Mineração</div>
+                    <div class="button-right oleo" data-segments="oleo">Óleo e Gás</div>
+                    <div class="button-right outros" data-segments="outros">Outros</div>
+                </div>
+            </div>
+        </section>
+        <div class="__desktop">
+            <section class="brands"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/abril-png 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/bradesco-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/globo-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/mrv-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/pepsico-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/sabesp-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/Santander-Logo-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/smart-fit-pb 1.webp"><img alt="Imagem de equipamentos Tecnogera"
+                    data-src="https://www.tecnogera.com.br/images/brands/universidade-anhanguera-pb 1.webp"></section>
+        </div>
+        <div class="__mobile">
+            <div class="brands-switcher" data-switcher data-autoplay="1500">
+                <div class="brands-switcher-rail">
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/abril-png 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/bradesco-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/globo-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/mrv-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/pepsico-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/sabesp-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/Santander-Logo-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/smart-fit-pb 1.webp"></div>
+                    <div class="brands-switcher-item"><img alt="Imagem de equipamentos Tecnogera"
+                            src="https://www.tecnogera.com.br/images/brands/universidade-anhanguera-pb 1.webp"></div>
+                </div>
+                <div class="brands-switcher-counters"></div>
+                <div class="brands-switcher-previous"></div>
+                <div class="brands-switcher-next"></div>
+            </div>
+        </div>
+
+
+
+
+                
+        <div style="text-align: center;">
+            <div style="display: inline-block;">
+                <p> - </p>
+                <p> Este é um micro-site criado somente para ilustrar o que seria o Tableau embedded no seu site. Somente alguns exemplos para inspira-los na avaliação do Tableau e para conhecermos melhor o seu use case</p> 
+                <p> Todos os dashboards apresentados contem dados ficticios para fins educacionais </p>   
+        <div id="vizContainer0"></div>
+        </div>
+        </div>
+        
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard que acompanha despesas de recursos humanos. Voce pode encontrar esse dashboard nos Accelerators Tableau</p>
+            <p>Os aceleradores do Tableau são painéis pré-criados projetados para ajudar você a obter um impulso inicial na análise de dados.</p>
+            <p>Adaptados a setores específicos e aplicativos corporativos, os Aceleradores são criados com dados de amostra que você pode trocar por seus próprios dados,</p>
+                <p> permitindo que você descubra insights com configuração mínima.</p>   
+        <div id="vizContainer1"></div>
+        </div>
+        </div>
+    
+        <!--
+         <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um exemplo de dashboard para acompanhamento de fundos.</p>   
+        <div id="vizContainer3"></div>
+        </div>
+        </div>  -->
+      <!--   <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard de um exemplo de template para que todos os usuários tenham facilidade para criar novos dashs e seguindo os padrões da empresa</p>
+               
+        <div id="vizContainer4"></div>
+        </div>
+        </div> -->
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard usando um template ilustrando como aumentar a adoção</p>
+              
+        <div id="vizContainer5"></div>
+        </div>
+        </div>
+
+        <div style="text-align: center;">
+            <div style="display: inline-block;">
+                <p> - </p>
+                <p> Abaixo um exemplo do parceiro Path sobre energia solar somente como inspiração</p>
+                 
+            <div id="vizContainer4"></div>
+            </div>
+            </div> 
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard mais lúdico disponível no Tableau Public. Voce pode acompanhar a animação clicando no triangulo no canto inferior direito</p>
+            <p>O Tableau Public é uma plataforma gratuita para explorar, criar e compartilhar publicamente visualizações de dados online. </p>
+                <p> Com o maior repositório de visualizações de dados do mundo para aprender, o Tableau Public facilita o desenvolvimento de habilidades de dados.</p>
+            
+        <div id="vizContainer6"></div>
+        </div>
+        </div>
+        <!-- <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard que acompanha a distribuição das vendas e taxa de sucesso de oportunidades por local ou setor e data do fechamento.</p>
+            <p>Os aceleradores do Tableau são painéis pré-criados projetados para ajudar você a obter um impulso inicial na análise de dados.</p>
+            <p>Adaptados a setores específicos e aplicativos corporativos, os Aceleradores são criados com dados de amostra que você pode trocar por seus próprios dados,</p>
+                <p> permitindo que você descubra insights com configuração mínima.</p>   
+        <div id="vizContainer7"></div>
+        </div>
+        </div> -->
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Avalie sua exposição atual a riscos.
+                Monitore seus riscos e concentre-se nas principais prioridades.
+                Avalie sua eficácia na eliminação/mitigação de riscos</p>
+            <p>Os aceleradores do Tableau são painéis pré-criados projetados para ajudar você a obter um impulso inicial na análise de dados.</p>
+            <p>Adaptados a setores específicos e aplicativos corporativos, os Aceleradores são criados com dados de amostra que você pode trocar por seus próprios dados,</p>
+                <p> permitindo que você descubra insights com configuração mínima.</p>   
+        <div id="vizContainer8"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+        
+            <p> - </p>
+            <p> Abaixo um dashboard para ánalise de facebook ads. Também disponível nos Accelerators Tableau</p>
+            <p>Avalie e melhore o desempenho de suas campanhas de marketing com o Facebook Ads.
+                Identifique as campanhas mais impactantes.
+                Mergulhe fundo na eficiência da campanha em: Reconhecimento, Engajamento, Conversão.</p>
+            <p>Melhorar o retorno sobre o investimento.
+                Audite os resultados da otimização da campanha ao longo do tempo.</p>   
+        <div id="vizContainer9"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard para acompanhamento de NPS. Também disponível nos Accelerators Tableau</p>
+            <p>Entenda como os clientes avaliam suas experiências com sua empresa</p>
+            <p>Como a qualidade da experiência de seus clientes evoluiu ao longo do tempo</p>   
+        <div id="vizContainer10"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p> - </p>
+            <p> Abaixo um dashboard para acompanhamento de contratos. Também disponível nos Accelerators Tableau</p>
+            <p>Avalie e monitore seu volume de gastos
+              Entenda melhor sua alocação de gastos em categorias de gastos e fornecedores</p>
+                <p>Monitore e melhore os KPIs</p>   
+        <div id="vizContainer11"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p>-</p>
+            <p> O dashboard a seguir é um exemplo de webinar que utilizamos no inicio da jornada para criação de cultura de dados. </p>
+                <p>Tem muita informação relevante para que voce possa conhecer um pouco mais sobre a plataforma Tableau e como te ajudamos a construir cultura de dados/>
+                <p>-</p>
+        <div id="vizContainer12"></div>
+        </div>
+        </div>
+        <div style="text-align: center;">
+        <div style="display: inline-block;">
+            <p>-</p>
+            <p> O dashboard a seguir é um exemplo de webinar sobre embedded. </p>
+                <p>Tem muita informação relevante para que voce possa conhecer um pouco mais sobre embedded</p>
+                <p>-</p>
+        <div id="vizContainer13"></div>
+        </div>
+        </div>
+                    </div>
+        
+        
+    
+
+
+
+        <section class="cases-box">
+            <div class="__wrap">
+                <div class="title">Cases</div>
+                <p>
+                    De empresas, construções a até mesmo cidades, a Tecnogera já atendeu aos mais diversos segmentos
+                    com projetos de soluções energéticas pensados para cada caso. Conheça alguns deles.
+                </p>
+                <div class="cards"><a class="card" href="https://www.tecnogera.com.br/cases/multinacional-na-area-oleo-gas">
+                        <div class="cover" style="background-image: url(https://www.tecnogera.com.br/uploads/91565eed94c06ee3cd9c2cfa6c0fe97d.jpg)">
+                        </div>
+                        <div class="legend">Óleo e Gás</div>
+                        <h3>Multinacional na área Óleo & Gás</h3>
+                        <p>Devido aos altos custos com energia no estaleiro, havia a necessidade de buscar uma solução
+                            energética com melhor custo/benefício e mobilização ágil.</p>
+                        <div class="cta">Ver case completo</div>
+                    </a><a class="card" href="https://www.tecnogera.com.br/cases/empresa-estatal-na-area-oleo-gas">
+                        <div class="cover" style="background-image: url(https://www.tecnogera.com.br/uploads/f87f54b5a48056901be0a57ba5241955.jpg)">
+                        </div>
+                        <div class="legend">Óleo e Gás</div>
+                        <h3>Empresa estatal na área Óleo & Gás</h3>
+                        <p>Garantir a operação de distribuição de gás natural no estado do Espírito Santo</p>
+                        <div class="cta">Ver case completo</div>
+                    </a><a class="card" href="https://www.tecnogera.com.br/cases/sabesp">
+                        <div class="cover" style="background-image: url(https://www.tecnogera.com.br/uploads/ad87c2f89df1e7fd1555f948e86fe5d1.jpg)">
+                        </div>
+                        <div class="legend">Infraestrutura e Construção Civil</div>
+                        <h3>SABESP</h3>
+                        <p>Instalação de usina termoelétrica movida a gás para bombeamento de agua entre represas.</p>
+                        <div class="cta">Ver case completo</div>
+                    </a><a class="card" href="https://www.tecnogera.com.br/cases/jogos-olimpicos-rio-2016">
+                        <div class="cover" style="background-image: url(https://www.tecnogera.com.br/uploads/0d95c659a20465d4e1ffb17c47a9020c.jpg)">
+                        </div>
+                        <div class="legend">Eventos</div>
+                        <h3>Jogos Olímpicos Rio 2016</h3>
+                        <p>Fornecer Energia para as cerimônias de abertura e encerramento dos jogos, bem como 25 locais
+                            de competições durante todo o evento.</p>
+                        <div class="cta">Ver case completo</div>
+                    </a></div>
+            </div>
+        </section>
+<!--         <section class="middle" data-switcher data-autoplay>
+            <div class="middle-rail">
+                <div class="middle-item" style="background-image: url('https://www.tecnogera.com.br/images/home/middle2.webp')"></div>
+                <div class="middle-item" style="background-image: url('https://www.tecnogera.com.br/images/home/middle3.webp')"></div>
+                <div class="middle-item" style="background-image: url('https://www.tecnogera.com.br/images/home/middle5.webp')"></div>
+                <div class="middle-item" style="background-image: url('https://www.tecnogera.com.br/images/home/middle6.webp')"></div>
+            </div>
+            <div class="middle-counters"></div>
+            <div class="middle-previous"></div>
+            <div class="middle-next"></div>
+        </section> -->
+        <section class="sec_3">
+            <div class="__wrap">
+                <div class="block">
+                    <h2>NPS na Tecnogera</h2>
+                    <p>A satisfação do nosso cliente é prioridade</p><br>
+                    <p>Sempre atenta às necessidades, expectativas e satisfação de nossos clientes, desde 2017 a
+                        Tecnogera utiliza o Net Promoter Score (NPS), metodologia criada em 2003 pela Bain & Company.
+                    </p><br>
+                    <p>O NPS metrifica as notas dadas pelos clientes e nos ajuda no aperfeiçoamento de nossos serviços,
+                        atendimento e soluções para melhorar, ainda mais, a experiência do usuário.</p><br>
+                    <p>O trabalho constante de uma equipe comprometida e em sintonia com as necessidades dos clientes
+                        fez a Tecnogera alcançar uma ótima avaliação, com números que nos enchem de orgulho e nos
+                        motivam a buscar a excelência.</p>
+                </div><img alt="Imagem de equipamentos Tecnogera" data-src="https://www.tecnogera.com.br/images/home/home-nps.webp">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="__wrap">
+            <div class="line_1">
+                <div class="brand"><img alt="Imagem de equipamentos Tecnogera" data-src="https://www.tecnogera.com.br/images/brand.png">
+                    <p>TECNOGERA - LOCACAO E <br> TRANSFORMACAO DE ENERGIA SA</p>
+                    <p>08.100.057/0001-74</p>
+                </div>
+                <div class="isos"><img alt="Imagem de equipamentos Tecnogera" data-src="https://www.tecnogera.com.br/images/iso.jpg"></div>
+                <div class="suport">
+                    <div class="social-medias"><a href="https://www.facebook.com/TecnogeraGeradores"
+                            target="_blank"><img alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/svg/facebook.svg"></a><a
+                            href="https://www.linkedin.com/company/tecnogera-geradores" target="_blank"><img
+                                alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/svg/linkedin.svg"></a><a
+                            href="https://www.instagram.com/tecnogerageradores/?hl=pt-br" target="_blank"><img
+                                alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/svg/instagram.svg"></a><a
+                            href="https://www.youtube.com/channel/UCX34D3LxKg7UmtQ7rCL0pSQ" target="_blank"><img
+                                alt="Imagem de equipamentos Tecnogera" src="https://www.tecnogera.com.br/svg/youtube.svg"></a></div>
+                    <p>Suporte 24h - 7 dias por semana</p>
+                </div>
+                <div class="attendance">
+                    <div class="title">Atendimento Comercial:</div><a href> 0800 772 1601</a><a href> <span
+                            class="__cf_email__"
+                            data-cfemail="2f43404c4e4c4e406f5b4a4c4140484a5d4e014c4042014d5d">[email&#160;protected]</span></a>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div class="line_2">
+                <div class="column">
+                    <div class="column-title">Institucional</div><a href="sobre-nos">Sobre</a><a
+                        href="responsabilidade-social">Responsabilidade Social</a><a href="etica-e-conduta">Ética e
+                        Conduta</a><a href="cases">Cases</a><a href="https://tecnogera.gupy.io/"
+                        target="_blank">Trabalhe Conosco</a>
+                </div>
+                <div class="column">
+                    <div class="column-title">Soluções</div><a href="geracao-de-energia">Geração de Energia</a><a
+                        href="comercializadora-de-energia">Comercializadora de energia</a><a
+                        href="controle-de-temperatura">Controle de Temperatura</a><a
+                        href="equipamentos-eletricos">Equipamentos Elétricos</a>
+                </div>
+                <div class="column">
+                    <div class="column-title">Geração de Energia</div><a href="geracao-de-energia">Locação de
+                        Gerador</a><a href="geracao-de-energia">Stand By</a><a href="geracao-de-energia">Banco de
+                        Carga</a><a href="geracao-de-energia">Turnkey</a>
+                </div>
+                <div class="column">
+                    <div class="column-title">Controle de Temperatura</div><a
+                        href="controle-de-temperatura">Chillers</a><a href="controle-de-temperatura">Fancoil</a><a
+                        href="controle-de-temperatura">Rooftop</a><a href="controle-de-temperatura">On-off</a><a
+                        href="controle-de-temperatura">Proporcional</a><a href="controle-de-temperatura">Proporcional
+                        Integral Derivativo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+
+</html>
